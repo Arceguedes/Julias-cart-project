@@ -1,0 +1,5 @@
+package com.juliaguedes.course.resources;
+
+public class UserResource {
+
+}
