@@ -1,0 +1,10 @@
+package com.juliaguedes.course.entities.enums;
+
+public enum OrderStatus {
+	WAITING_PAYMENT,
+	PAID,
+	PACKING,
+	SHIPPED,
+	DELIVERED,
+	CANCELED;
+}
