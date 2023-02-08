@@ -1,0 +1,5 @@
+package com.juliaguedes.course.repositories;
+
+public class UserRepository {
+
+}

@@ -9,12 +9,15 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
+//Definir que isso aqui será uma entidade do tipo tabela
 @Entity
 @Table(name = "tb_user")
 public class User implements Serializable {
 	private static final long serialVersionUID = 1L;
 
+	//Primeiro pra dizer que o comando abaixo será relacionado ao ID
 	@Id
+	//E então dizer que o comando abaixo será autoincrementado (não inserido)
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String name;

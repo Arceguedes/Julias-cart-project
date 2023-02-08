@@ -1,0 +1,10 @@
+package com.juliaguedes.course.services;
+
+import com.juliaguedes.course.repositories.UserRepository;
+
+public class UserService {
+
+	@Autowired
+	private UserRepository repository;
+	
+}
