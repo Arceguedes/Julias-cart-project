@@ -1,0 +1,10 @@
+package com.juliaguedes.course.entities;
+
+import com.juliaguedes.course.entities.pk.OrderItemPK;
+
+public class OrderItem {
+
+	private OrderItemPK id;
+	private Integer quantity;
+	private double price;
+}

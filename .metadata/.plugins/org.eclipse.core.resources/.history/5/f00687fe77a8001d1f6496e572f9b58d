@@ -1,0 +1,5 @@
+package com.juliaguedes.course.entities.pk;
+
+public class OrderItemPK {
+
+}
