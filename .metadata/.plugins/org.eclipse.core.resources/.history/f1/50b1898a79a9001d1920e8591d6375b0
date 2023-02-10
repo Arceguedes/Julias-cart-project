@@ -1,0 +1,13 @@
+package com.juliaguedes.course.resources.exceptions;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+
+@ControllerAdvice
+public class ResourceExceptionHandler {
+
+		public ResponseEntity<StandardError> resourceNotFound(ResourceNotFoundException e, HttpServLedRequest request){
+			
+		}
+
+}

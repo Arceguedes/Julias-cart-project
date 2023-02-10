@@ -1,0 +1,6 @@
+package com.juliaguedes.course.services.exceptions;
+
+public class ResourceNotFoundException extends RuntimeException{
+
+	
+}

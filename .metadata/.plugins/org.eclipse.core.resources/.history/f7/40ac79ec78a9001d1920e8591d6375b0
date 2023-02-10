@@ -1,0 +1,5 @@
+package com.juliaguedes.course.resources.exceptions;
+
+public class StandardError {
+
+}
